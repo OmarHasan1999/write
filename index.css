@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+
+li::before {
+    color: red;
+    content: "I ♥ ";
+}
+
+li::after {
+    content:" :) ";
+    display: inline-block;
+    margin-left: 1rem;
+    transform: rotate(90deg);
+}
+li {
+    color:rgba(0, 225, 255, 0.973);
+}
+
+.ball{
+    width: 1080px;
+    height: 1920px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.ball1 , .ball2 ,  .ball3 {
+       width: 200px;
+       height: 200px;
+       opacity: .75;
+       background: radial-gradient(#8764e6, #ca38c6);
+       border-radius: 50%;
+       animation: 3s ease-in infinite alternate zipla;
+       
+       
+}
+
+.ball1 {
+    animation-delay: .3s;
+}
+.baii2{
+    animation-delay: .6s;
+}
+
+.ball3 {
+    animation-delay: .9s;
+}
+
+@keyframes zipla {
+    to {
+        margin-top: 1720px;
+        filter: hue-rotate(360deg);
+    }
+}
