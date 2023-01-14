@@ -1,0 +1,85 @@
+h1 {  
+    color: white;
+    text-align: center;
+    font-size:37px;
+    background-color: #3b5888e3;
+    margin-top: 0;
+}
+
+p.no { text-align: center;
+       color: rgba(0, 0, 0, 0.692);
+       margin-top: 25px;
+       font-size: 22px;
+
+}
+
+
+body {
+     background-color: rgba(255, 255, 255, 0.699);
+
+}
+
+.d {
+     text-align: center; 
+     height: 28px;
+     width: 310px;
+     margin-bottom: 5px;
+     border-radius: 2px;
+     font-size: 15px;
+     outline-style: none;
+}
+
+.d1 {  text-align: center;
+       background-color: #3b5888e3;
+       height: 40px;
+       width: 320px;
+       color:white;
+       font-weight: bolder;
+       border-radius: 5px;
+}
+
+.d1:hover{
+     text-decoration: underline;
+}
+
+h3 {   text-align: center;
+       margin-top: 8px;
+       margin-bottom: 14px;
+       font-size: 20px;
+       font-weight: 400;
+       color: rgba(0, 0, 0, 0.644);
+}
+.love {   
+     background-color:rgba(0, 255, 255, 0.76);
+     text-align: center;
+     font-size: 14px;
+     font-weight: bolder;
+     height: 26px;
+     width: 180px;
+     border-radius: 5px;
+     color:rgba(0, 0, 0, 0.945);
+     
+}
+.love:hover{color: purple;}
+
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 255, 0.719);
+  font-size:20px;
+
+}
+
+
+p a {color: black;}
+p a:hover{color:rgba(0, 0, 0, 0.815)}
+
+div.file{ 
+     margin-top: 60px;
+     text-align: center;   
+
+     
+}
+
+
