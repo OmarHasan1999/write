@@ -6,7 +6,7 @@ h1 {
     margin-top: 0;
 }
 
-p.no { text-align: center;
+.no { text-align: center;
        color: rgba(0, 0, 0, 0.692);
        margin-top: 25px;
        font-size: 22px;
@@ -50,36 +50,33 @@ h3 {   text-align: center;
        color: rgba(0, 0, 0, 0.644);
 }
 .love {   
-     background-color:rgba(0, 255, 255, 0.76);
      text-align: center;
-     font-size: 14px;
-     font-weight: bolder;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+     font-weight: 900;
      height: 26px;
      width: 180px;
      border-radius: 5px;
-     color:rgba(0, 0, 0, 0.945);
-     
+     color: white;
+     background-color:#3b5888e3;     
 }
-.love:hover{color: purple;}
 
 
-p {
+
+
+p.yes{
   text-align: center;
   margin-bottom: 20px;
-  color: rgba(0, 0, 255, 0.719);
+  color: #3b5888e3;
   font-size:20px;
-
+  text-decoration: underline;
 }
+p.yes a:hover{color:#3b5888e3;}
 
 
-p a {color: black;}
-p a:hover{color:rgba(0, 0, 0, 0.815)}
-
-div.file{ 
+div.file { 
      margin-top: 60px;
-     text-align: center;   
-
-     
+     text-align: center;        
 }
 
 
