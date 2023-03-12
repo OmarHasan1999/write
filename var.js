@@ -14,7 +14,7 @@ function myHeaderOne(){
 
 function myHeader(){
   document.getElementById('header').innerHTML = " HUAWEI Mate 10 Pro";
-  document.getElementById('paragraph').innerHTML = " 128 GB ; Arka Kamera Sayisi, : 2 Kamerali ; Dahili Hafiza, : 128 GB ; RAM Kapasitesi, : 6 GB ; Batarya Kapasitesi, : 4000 mAh";
+  document.getElementById('paragraph').innerHTML = "CPU, cta-core (4x2.4 GHz Cortex-A73 & 4x1.8 GHz Cortex-A53) ; GPU, Mali-G72 MP12 ; Memory, Card slot ; Internal, 64GB 4GB RAM, 128GB 6GB RAM";
 }
 
 function myHeader1(){
