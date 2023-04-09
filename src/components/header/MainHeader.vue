@@ -30,7 +30,7 @@
 </header>
 
 
-<button onclick="myfun">click</button>
+<button onclick="myfun()">click</button>
 <p id="my">hello</p>
 
 
