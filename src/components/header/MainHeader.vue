@@ -33,14 +33,10 @@
 <button onclick="myfun()">click</button>
 <p id="my">hello</p>
 
-
-
 </template>
 
-
 <script>
-import newFile from '../js/newFile.js'
- 
+ import myfun from './js/newFile'
 </script>
 <style lang="">
 
