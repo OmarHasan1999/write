@@ -1,4 +1,5 @@
-<template >
+<template>
+    
     <header class="main">
 
 <nav class="navbar">
@@ -13,6 +14,7 @@
        <router-link to="/download" class="link2">Download</router-link>
        <router-link to="/contact" class="link2">Contact</router-link>
    </div>
+   
 
    <div class="sec">
        <label class="for">
@@ -24,12 +26,31 @@
    </div>
 </nav>
 
+
 </header>
 
-<button onclick="myfun()">click</button>
+
+<button onclick="myfun">click</button>
 <p id="my">hello</p>
 
+
+
 </template>
+
+
+<script>
+ import '../../js/newFile.js'
+</script>
+<style lang="">
+
+</style>
+    
+    
+
+
+
+
+
 
     
 

@@ -15,7 +15,7 @@ import './css/ContactHero.css'
 
 
 
-import './js/new.js'
+
 
 
 
