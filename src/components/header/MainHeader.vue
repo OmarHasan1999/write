@@ -39,7 +39,8 @@
 
 
 <script>
- import '../../js/newFile.js'
+import newFile from '../js/newFile.js'
+ 
 </script>
 <style lang="">
 
