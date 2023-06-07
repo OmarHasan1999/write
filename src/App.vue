@@ -11,7 +11,7 @@ import { RouterView } from 'vue-router'
 
 
 nav a.router-link-exact-active {
-  color: #1d774e;
+  color: #601cfc;
 }
 
 </style>

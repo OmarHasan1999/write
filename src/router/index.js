@@ -6,52 +6,38 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      path: '/services',
+      name: 'Services',
+      component: () => import('../views/ServicesView.vue')
     },
+    
     {
-      path: "/recipes",
-      name: "recipes",
+      path: "/projects",
+      name: "Projects",
       component: () =>
-        import("../views/RecipesView.vue"),
-    },
-    {
-      path: "/recipes/detail/:id",
-      name: "detail",
-      component: () =>
-        import( "../views/DetailView.vue"),
-    },
-    {
-      path: "/recipes/category/:name",
-      name: "category",
-      component: () =>
-        import(
-         "../views/CategoryView.vue"
-        ),
-    },
-    {
-      path: "/download",
-      name: "download",
-      component: () =>
-        import("../views/DownloadView.vue"),
+        import("../views/ProjectsView.vue"),
     },
     {
       
         path: "/contact",
-        name: "contact",
+        name: "Contact",
         component: () =>
           import("../views/ContactView.vue"),
       
     }
   ]
+});
+
+ router.beforeEach((to, from, next) => {
+  // to and from are both route objects. must call `next`.
+  
+  document.title = `${to.name}-MARK`;
+
+  next()
 })
 
 export default router

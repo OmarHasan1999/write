@@ -1,14 +1,21 @@
 <template>
-    <div class="con1">
-        <img src="../../assets/food/profile.svg" class="con2">
-        <h3 class="con3">Love to hear from you <br>Get in Touch 👋</h3>
-        <p class="con4">So, given that this wasn't a planned project, I didn't think of
-            hooking a form up with an API, a custom backend or doing anything fancy. </p>
-        <p class="con5">So, if you want to get in touch with me:</p>
-        <a href="https://ayomideodewale.com"
-           target="_blank" class="con6"> Get In Touch Here</a>
-       
-    </div>
+    
+    <section>
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="developer">
+                <div class="book"><i class="fa-solid fa-phone"></i></div>
+                <div class="object"><h3>Phone</h3><p>+905368380166</p></div>
+
+            </div>
+            <div class="developer">
+                <div class="book"><i class="fa-solid fa-envelope"></i></div>
+                <div class="object"><h3>Email</h3><p>developer@mark.com</p></div>
+
+            </div>
+
+        </div>
+    </section>
 </template>
 
 

@@ -1,4 +1,4 @@
-div.con1{
+/*div.con1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,4 +65,10 @@ div.con1{
        transform: scale(1.1);
        background: #047848fd; 
         
-    }
+    }*/
+    .developer { border: 1px solid #fff;width: 18em;transition: 0.7s ease;margin: 10px;padding: 20px;text-align: center;
+        border-radius: 12px;box-shadow: 0 5px 20px rgba(1 1 1 / 15%);background-color: #fff;}
+.developer:hover{ transform: scale(1.1);}
+.book { color: #3a6cf4;font-size: 50px;margin-bottom: 10px;}
+.object p { font-size: 18px;}
+.object h3 { margin-bottom: 8px;}

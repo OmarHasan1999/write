@@ -1,4 +1,4 @@
-footer.end{
+/*footer.end{
   display: flex;    
   justify-content: center;
   grid-template-columns: repeat(1, minmax(0, 1fr)); 
@@ -95,4 +95,10 @@ margin-top: 0px;
 font-weight: 600;
 line-height: 20px;
 text-transform: uppercase;
-}
+}*/
+
+footer{ width: 100%;display: flex;padding: 20px 45px;
+  justify-content: space-between;background-color: #000;align-items: center;}
+footer p { color: #fff; font-size: 18px;font-weight: 600;}
+footer span { color: #3a6cf4;}
+footer div a { color: #fff;padding-left: 20px;}

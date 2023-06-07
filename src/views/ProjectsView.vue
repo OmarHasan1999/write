@@ -1,9 +1,9 @@
 <template>
     <default-layouts>
-        <download-hero/>
+        <projects-hero/>
     </default-layouts>
 </template>
 <script setup>
 import DefaultLayouts from '../components/layouts/DefaultLayouts.vue'
-import DownloadHero from '../components/partials/DownloadHero.vue'
+import ProjectsHero from '../components/partials/ProjectsHero.vue'
 </script>

@@ -12,6 +12,9 @@ import './css/HomePopular.css'
 import './css/AboutHero.css'
 import './css/DownloadHero.css'
 import './css/ContactHero.css'
+import './css/RecipeCategory.css'
+import './css/RecipeDetail.css'
+import './css/categoryView.css'
 
 
 
@@ -24,7 +27,3 @@ const app = createApp(App)
 app.use(router)
 
 app.mount('#app')
-
-document.ready(function(){
-    alert('hello');
-})
