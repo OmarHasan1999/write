@@ -1,0 +1,189 @@
+*{padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;}
+  .main{display: flex;
+       justify-content: center;
+       align-items: center;
+       background: url(../assets/images/photo-1491466424936-e304919aada7.jfif) no-repeat;
+       background-position: center;
+       background-size: cover;
+       min-height: 100vh;}
+  header{display: flex;
+         justify-content: space-between;
+         top: 0;
+         width: 100%;
+         align-items: center;
+         padding: 30px 110px;
+         position: fixed;
+         z-index: 100;
+         }
+   h2.firstHeader {font-weight: 800;
+                    font-size: 30px;
+                    color: white;
+                    user-select: none;}
+   a{text-decoration: none;}
+   .navbar a{ color: white;
+              font-size: 20px;
+              font-weight: 500;
+              margin-left: 40px;
+              position: relative;
+              }
+   .firstButton{cursor: pointer;
+                width:120px;
+                height: 50px;
+                background: transparent;
+                color: white;
+                font-weight: 500;
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 20px;
+                margin-left: 40px;
+                transition: 0.5s ease;}
+  .firstButton:hover{background: white;
+                     color:rgba(0, 0, 0, 0.713);}
+  .navbar a::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    left: 0;
+    bottom: -6px;
+    transform: scale(0);
+    transition: 0.5s ease;
+  }
+  .navbar a:hover::after{
+    transform: scale(1);
+  }
+  
+  .project{position: relative;
+              width: 390px;
+              height: 420px;
+              background: transparent;
+              border: 2px solid rgba(255, 255, 255, 0.365);
+              border-radius: 20px;
+              backdrop-filter: blur(20px);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 90px;
+              overflow: hidden;
+              transform: scale(0);
+              transition: 0.5s ease;
+  }
+  .project.form{
+    transform: scale(1);
+  }
+  
+  
+  
+  .project.firstForm{width: 100%;padding: 40px;}
+  
+  .project .close{
+     position: absolute;
+     top: 0;
+     right: 0px;
+     width: 45px;
+     height: 45px;
+     background: #274b5897;
+     color: beige;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 24px;
+     border-bottom-left-radius: 20px;
+     cursor: pointer;
+  
+                  }
+  
+  .firstForm h2{font-size: 30px;
+                text-align: center;
+                color: rgba(0, 0, 0, 0.818);}
+  .input{position: relative;
+         width: 100%;
+         height: 50px;
+         border-bottom: 2px solid rgba(0, 0, 0, 0.831);
+         margin: 30px 0;}
+  .input label{position: absolute;
+               top: 50%;
+               left: 5px;
+               transform: translateY(-50%);
+               color: rgba(0, 0, 0, 0.91);
+               font-size: 18px;
+               font-weight: 600;
+               pointer-events: none;
+               transition: 0.5 ease;}
+  
+  .input input:focus~label,
+  
+  .input input:valid~label
+  {
+    top:-5px;
+  }
+  
+  .input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color:rgba(240, 248, 255, 0.558);
+    padding: 0 30px 0 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .input .icon{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: black;
+    margin-top: 12px;
+   }
+  
+   .check{display: flex;
+          justify-content: space-between;
+          font-weight: 600;
+          font-size: .9em;
+          color: rgb(0, 0, 0);
+          margin: -15px 0 15px;
+          }
+  .check label input {
+    accent-color: black;
+    margin-right: 4px;
+  }
+  .check a{color: black;}
+  .check a:hover{text-decoration: underline;}
+  .secondButton{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #274b5897;
+    color: #ffffffb9;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+  
+  }
+  .submit{
+    margin: 25px 0px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color:black;
+    text-align: center;
+  }
+  .submit p a{
+    color: black;
+    font-weight: 800;
+  }
+  .submit p a:hover{text-decoration: underline;}
+  .message {
+    display: none;
+    color: red;
+    font-weight: bold;
+  }
