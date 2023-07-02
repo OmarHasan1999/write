@@ -1,0 +1,85 @@
+img{
+    height:30px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #A0D4FF;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 60%;
+}
+.container-one{
+    background-color: #1292EE;
+    width: 30%;
+    padding: 2%;
+    border-radius: 25px;
+}
+.profile img{
+    height: 6rem;
+    width: 90px;
+    border-radius: 70%;
+    
+}
+.link img.instagram{
+    height: 3.7rem;
+}
+ h2.new{
+    margin-top: 4px;
+    
+}
+.profile p{
+    font-size: 18px;
+    font-weight: 50;
+}
+.link a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #2c3e50;
+}
+.link img{
+    height: 2rem;
+}
+.container-two{
+    width:70%;
+    margin: 2.5%;
+}
+.about-me{
+    text-align: left;
+}
+.about-me p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logos img{
+    height: 2.5rem;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.button-project{
+    background-color: #005CA4;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 15px;
+}
+.button-project a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:720px){
+    .main-container{
+        width: 90%;
+    }
+}
